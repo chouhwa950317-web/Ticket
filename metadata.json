@@ -1,0 +1,6 @@
+{
+  "name": "發票分類快手",
+  "description": "新北市稅捐稽徵處推廣電子發票與雲端發票使用的互動式 Landing Page 小遊戲。認識收據、電子發票、雲端發票，雲端發票方便、環保、容易管理！",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
