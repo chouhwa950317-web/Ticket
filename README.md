@@ -1,20 +1,22 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Ticket
 
-# Run and deploy your AI Studio app
+This project is a Vite + React app configured for GitHub Pages deployment.
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/2ecff55a-f01a-40dd-9a8b-5dcd460bcf4f
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
+## Run locally
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Start the development server:
    `npm run dev`
+
+## Deploy to GitHub Pages
+
+The project is configured to publish automatically to GitHub Pages through GitHub Actions.
+
+1. Push the repository to GitHub.
+2. Open the repository Settings → Pages.
+3. Ensure the source is set to GitHub Actions.
+4. The workflow in [.github/workflows/deploy-pages.yml](.github/workflows/deploy-pages.yml) will build and publish the site on every push to the `main` branch.
+
+The site will be available at:
+`https://<your-github-username>.github.io/Ticket/`
